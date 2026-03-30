@@ -1,0 +1,37 @@
+# --- Muhit va Maxfiy Ma'lumotlar ---
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+# --- Python Kesh va Kompilyatsiya ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Ma'lumotlar tahlili va ML (Data Science) ---
+.ipynb_checkpoints
+.DS_Store
+data/
+# Agar katta datasetlar bo'lsa:
+*.csv
+*.json
+*.sqlite3
+*.h5
+*.pickle
+
+# --- Django Maxsus ---
+db.sqlite3
+/static/
+/media/
+staticfiles/
+
+# --- IDE va Tizim fayllari ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
